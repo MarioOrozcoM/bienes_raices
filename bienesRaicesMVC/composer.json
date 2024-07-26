@@ -1,0 +1,27 @@
+{
+    "name": "mario/bienesraices",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Mario\\Bienesraices\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mario",
+            "email": "mariodanielorozco@hotmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "2.7",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" :"./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
